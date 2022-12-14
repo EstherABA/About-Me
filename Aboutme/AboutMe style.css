@@ -1,0 +1,72 @@
+
+
+h1 {
+    
+color: blueviolet;
+}
+
+p {
+    font-family: 'La Belle Aurore', cursive;
+   
+
+}
+
+img {
+    style=width:100%;height:300px;
+}
+
+.img2 {
+    border-radius: 2px;
+     border: solid blue;
+ 
+}
+
+.left {
+    border-radius: 4px;   
+
+}
+
+.food2 {
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.location {
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+
+a:link {
+    color:rgb(7, 7, 6);
+}  
+
+a:visited {
+    color:pink;
+}
+
+a:hover {
+    color:red;
+}
+
+a:active {
+    color:#0000FF;
+}
+
+button{
+    background-color:blue;
+    cursor: pointer;
+    padding: 8px;
+}
+
+button:hover {
+    background-color:darkblue;
+
+    
+}
+
+div{
+    margin: horizontal center ;
+    text-align: center;
+
+}
+
