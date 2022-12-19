@@ -14,16 +14,19 @@
 
 </head>
 <body>
+    <script src="main.js"> </script>
+
+
     <header>
         <div>
-            <div class="left"> Place I love</div>
-            <div class="center"> A Bit About Me</div>
-            <div class="right">Contant Me</div>
+           <button onclick="delayHandleClick(this.id)" class="Place" id="PlacesILove"> Place I love</button>
+           <button class="center"> A Bit About Me</button>
+           <button onclick="delayHandleClick(this.id)" class="contact" id="ContactMe">Contant Me</button>
         </div>
     </header>
 
     <h1>Esther Abasov</h1>
-    <h4>I am 28 years old and lives in Mikhmoret </h4>
+    <h2>I am 28 years old and lives in Mikhmoret </h2>
 
     <p>
         "Sail away with <span>me</span> honey
@@ -49,7 +52,7 @@
     
 
 
-    <h2 style= "color: #EB455F">My Favorite Foods</h2><br>
+    <h2>My Favorite Foods</h2><br>
         <ol>
             <li>Thai food</li>
             <li class= "food2">Salad</li>
@@ -63,41 +66,43 @@
     <br><br><br>
     
 
-        <table border=black>
-            <thead>
-             <tr>
-              <th>Pros</th>
-              <th>Cons</th>
-             </tr>
-            </thead>
-            <tr>
-              <td>The sea is very close</td>
-              <td>A lot of travelers on the weekend</td>
-            </tr>
-            <tr>
-              <td>Beautiful sunsets</td>
-              <td>The family lives far</td>
-            </tr>
-        </table>
+    <table border=black>
+        <thead>
+        <tr>
+            <th>Pros</th>
+            <th>Cons</th>
+        </tr>
+        </thead>
 
-        <br>
-<div class="button-one">
+        <tr>
+            <td>The sea is very close</td>
+            <td>A lot of travelers on the weekend</td>
+        </tr>
 
-    <button class="button-one"; style="color:white" >Click to see more</button>
+        <tr>
+            <td>Beautiful sunsets</td>
+            <td>The family lives far</td>
+        </tr>
+    </table>
 
-</div>
+    <br>
+
+    <button class="button-one" >Click to see more</button>
+    
+    <footer>
+        <div class="left">
+        Esther Abasov
+        </div> 
+        
+        <div class="date"> 
+        15\12\2022
+        </div>    
+    </footer>
+
+
 </body>
 
 
-<footer>
-    <div class="left">
-    Esther Abasov
-    </div> 
-    
-    <div class="date"> 
-    15\12\2022
-    </div>    
-</footer>
 
 
 </html>
