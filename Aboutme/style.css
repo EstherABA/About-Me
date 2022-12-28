@@ -1,6 +1,7 @@
 
 *{
-    margin, padding: 0px;
+    margin:0px;
+    padding: 0px;
 }
 
 body{
@@ -24,7 +25,7 @@ img {
     position: relative;
   }
   
-  img:hover {
+img:hover {
     box-shadow: 0 0 10px 10px #2B3467;
   }
   
@@ -37,8 +38,10 @@ img {
 
 .img-left {
     border-radius: 4px;   
-    position: relative;
-    left: 0px;
+    /* position: relative; */
+    /* left: 0px; */
+    width = 900px
+    height ="250"
 }
 
 h2{
@@ -57,6 +60,7 @@ h2{
 a{
     font-size: 20px;
 }
+
 a:link {
     color:rgb(7, 7, 6);
 }  
@@ -106,7 +110,7 @@ header {
    
 }
 
- div{
+div{
 
     /* margin: horizontal center ; */
     /* text-align: center; */
@@ -122,12 +126,17 @@ header {
    color: #ff0000;
 }
 
-.Place{
+.place{
     position: relative;
     left: 20px;
     font-size: 20px;
     /* color: #ff0000; */
     
+}
+.cat{
+    background-color:#EB455F;
+
+
 }
 
 .contact{
